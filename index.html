@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Register</title>
+    <title>Login</title>
     <style>
     .redText {
         color: red;
@@ -10,6 +10,7 @@
     }
     </style>
 <body>
+    <div id="divContainer"></div>
     <div style="text-align: center;">
         <h1>Login</h1>
         <div>
@@ -22,10 +23,23 @@
             <button id="btnLogin">Login</button>
         </div>
         <div>
+            <a href="./register.html">
             <button id="btnRegister">Register</button>
+        </a>
         </div>
     </div> 
 </body>
+<script>
+    // Javascript
+    alert("Hello World");
+
+   console.log("Hello World.",1 + 1);
+
+   let btnLogin = document.querySelector("#btnLogin")
+   btnLogin.onclick = function () {
+        alert("Login Successful.");
+   }
+</script>
 
 
 </html>
